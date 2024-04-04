@@ -1,0 +1,107 @@
+.topbar {
+  background: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  height: 20px;
+  font-size: 1.1em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.topbar .topLinks {
+  padding: 0 10px;
+  background: transparent;
+  text-decoration: none;
+  border-right: 1px solid #ddd;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1414px;
+  margin: 0 auto;
+}
+
+.header-right,
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right img,
+.header-left img {
+  margin-right: 40px;
+}
+
+.header-right img:last-child,
+.header-left img:last-child {
+  margin-right: 0;
+}
+
+.navitems {
+  background: rgb(117, 173, 245);
+}
+
+ .nav-menu {
+  overflow: hidden;
+  display: flex;
+  background-color: rgb(117, 173, 245);
+  justify-content: space-between;
+  max-width: 1414px;
+  margin: 0 auto;
+}
+
+.nav-menu a {
+  float: left;
+  font-size: 21px;
+  color: white;
+  text-align: center;
+  padding: 14px 0px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 21px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.nav-menu a:hover,
+.subnav:hover .subnavbtn {
+  background-color: rgb(162, 192, 247);
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(162, 192, 247);
+  min-width: 140px;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: none;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
