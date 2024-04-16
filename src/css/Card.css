@@ -1,0 +1,22 @@
+.cardphoto {
+  width: calc(25% - 10px);
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.cardphoto-title {
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+.cardphoto img {
+  width: 100%;
+  height: auto;
+}
+.cardphoto:hover {
+  transform: scale(1.01);
+}
